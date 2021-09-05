@@ -7,9 +7,9 @@
         "Telegram Bot",
         "JE Bots"
     ],
-    "website": "https://infinityje.com",
-    "repository": "https://github.com/ImJanindu/Songdl-tgbot",
-    "success_url": "https://t.me/Infinity_BOTs",
+    "website": "https://github.com/Rexinazor/MellowD_MusicBot",
+    "repository": "https://github.com/Rexinazor/MellowD_MusicBot",
+    "success_url": "https://t.me/BioHazard_Bots",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
