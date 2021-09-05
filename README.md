@@ -10,5 +10,5 @@
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rexinazor/TG_MusicBot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/53a8d858f6e83debec3ce.jpg">
+  <img src="https://telegra.ph/file/e1cf2b9889df463c1f7ea.jpg">
 </p>
