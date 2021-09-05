@@ -1,5 +1,5 @@
-# Telegram Music Downloader
-## You can download any song using this bot. 
+# MellowD Music Downloader
+## You can download any song using this bot on Telegram. 
 
 ### Commands:
 - In Groups - `/song <song name>`
