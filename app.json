@@ -1,7 +1,6 @@
 {
-    "name": "Song Downloader Bot",
+    "name": "MellowD MusicBot",
     "description": "A bot that can download song you want.",
-    "logo": "https://telegra.ph/file/4501aa5bd83bdcefa658d.jpg",
     "keywords": [
         "Music",
         "Songdl",
