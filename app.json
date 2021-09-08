@@ -1,41 +1,42 @@
 {
-  "name": "MellowD MusicBot",
-  "description": "A Telegram bot to download music",
-  "keywords": [
-    "telegram",
-    "MellowD"
-    "Music"
-  ],
-  "repository": "https://github.com/Rexinazor/MellowD_MusicBot",
-  "success_url": "https://github.com/Rexinazor/MellowD_MusicBot",
-  "website": "https://github.com/Rexinazor/MellowD_MusicBot",
-  "env": {
-    "API_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": "",
-      "required": true
+    "name": "Mellowd Music",
+    "description": "A bot that can download song you want.",
+    "keywords": [
+        "Music",
+        "MellowD",
+        "Telegram Bot",
+        "Biohazard Bots"
+    ],
+    "website": "https://github.com/Rexinazor/MellowD-MusicBot",
+    "repository": "https://github.com/Rexinazor/MellowD-MusicBot",
+    "success_url": "https://t.me/BioHazard_Bots",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        }
     },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": "",
-      "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "Get this value from @BotFather",
-      "value": "",
-      "required": true
-    },
-    "OWNER_ID": {
-      "description": "Owner Telegram ID",
-      "value": "",
-      "required": true
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
     }
-  },
-  "addons": [
-  ],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "heroku/python"
-  }]
 }
